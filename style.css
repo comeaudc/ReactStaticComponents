@@ -1,0 +1,114 @@
+:root {
+    --dark3: #1A1A40;
+    --dark2: #270082;
+    --dark1: #7A0BC0;
+    --dark0: #FA58B6;
+}
+* {
+    border-radius: 15px;
+}
+html{
+    min-height: 100%;
+    position: relative;
+    font-family: cursive;
+}
+body{
+    position: absolute;
+    margin: 0;
+    background-color: var(--dark2);
+    width: 100%;
+    height: 100%;
+    color: whitesmoke;
+}
+section{
+    background-color: var(--dark3);
+    width: 20%;
+    height: 8em;
+}
+#all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    height: 90%;
+    margin: 20px;
+    gap: 25px;
+}
+#show{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 35%;
+    gap: 20px;
+}
+#show > section {
+    width: 100%;
+    height: 100%;
+}
+#dataContainer{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    gap: 25px;
+}
+#data{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+p{
+    font-size: 1.4rem;
+}
+.data2>p{
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 2rem;
+}
+.data2>p,h3{
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    height: 75%;
+    justify-content: space-evenly;
+}
+nav > h3 {
+    margin: 0;
+    padding: 0;
+}
+aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: var(--dark3);
+    width: 25%;
+    height: 100%;
+}
+li{
+    list-style: none;
+}
+h2,h3{
+    text-decoration: underline;
+}
+
+.inset{
+    max-width: 100%;
+    height: 65%;
+    margin: 2rem;
+    background-color: var(--dark1);
+}
